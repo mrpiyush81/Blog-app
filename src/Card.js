@@ -8,6 +8,8 @@ function Card({id,image,info,price,name,removetour,className}) {
     setreadmore(!readmore);
   }
 
+ 
+
   return (
     <div className={className}>
          <img src={image} alt="" className="image" />
